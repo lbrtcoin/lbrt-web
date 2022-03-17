@@ -26,7 +26,7 @@ const Section1 = () => {
 
       document.getElementById("random_count").innerHTML = c;
       countVolume();
-    }, 500);
+    }, 2500);
   }
   countVolume();
 
