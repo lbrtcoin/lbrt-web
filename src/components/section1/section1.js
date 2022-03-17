@@ -22,11 +22,11 @@ const Section1 = () => {
 
   function countVolume() {
     setTimeout(function () {
-      var c = Math.round(Math.random() * (1000000 + 521) + 1300);
+      var c = Math.round(Math.random() * (10000 + 521) + 1300);
 
       document.getElementById("random_count").innerHTML = c;
       countVolume();
-    }, 2500);
+    }, 500);
   }
   countVolume();
 
