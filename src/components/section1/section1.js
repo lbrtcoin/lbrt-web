@@ -12,7 +12,7 @@ import secicon from "../../Assets/d.png";
 const Section1 = () => {
   function countLocked() {
     setTimeout(function () {
-      var t = Math.round(Math.random() * (1000000 + 5001) + 21000000);
+      var t = Math.round(Math.random() * (1000000 + 30) + 21000000);
       document.getElementById("random_number").innerHTML = t;
       countLocked();
     }, 500);
@@ -22,7 +22,7 @@ const Section1 = () => {
 
   function countVolume() {
     setTimeout(function () {
-      var c = Math.round(Math.random() * (10000 + 521) + 1300);
+      var c = Math.round(Math.random() * (10000 + 9) + 1300);
 
       document.getElementById("random_count").innerHTML = c;
       countVolume();
